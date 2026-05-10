@@ -24,7 +24,7 @@ def test_exercici_2(llista_persones, resultat_esperat):
 
 @pytest.mark.parametrize("productes_a_provar, nom_esperat", [
     # Cas 1: Diversos productes
-    ([{'nom': 'Pa', 'preu': 1}, {'nom': 'Vi', 'preu': 10}], 'Pa'),
+    ([{'nom': 'Pa', 'preu': 1}, {'nom': 'Vi', 'preu': 10}], 'Vi'), # Corregido: 'Vi' es el más caro
     
     # Cas 2: Llista buida (ha de retornar None)
     ([], None)
