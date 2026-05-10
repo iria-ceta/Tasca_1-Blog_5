@@ -1,4 +1,3 @@
-
 """
 DocExercici 1 (2 punts)
 Crea una funció afegir_edat_a_tots(persones, anys) que afegeixi els anys especificats a l'edat de totes les persones de la llista. Aquesta funció modifica la llista original i no retorna res. Valida que anys sigui un enter positiu.
